@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="eu.ceps.largefields" type="module">
+  <file>largefields</file>
+  <name>Large Fields</name>
+  <description>Make text fields larger in Edit mode</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Alain Benbassat</author>
+    <email>alain@businessandcode.eu</email>
+  </maintainer>
+  <urls>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2020-03-11</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>Make custom fields of type text larger in Edit mode</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Largefields</namespace>
+  </civix>
+</extension>
